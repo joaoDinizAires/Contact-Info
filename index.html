@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">Formulário de Contato</h2>
+                        <form action="#" id="contact-form">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nome:</label>
+                                <input type="text" id="name" name="name" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone-number" class="form-label">Telefone:</label>
+                                <input type="text" id="phone-number" name="phone-number" class="form-control" placeholder="(DDD) 99XXX-XXXX">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                        <table id="table"class="table mt-4 table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">Telefone</th>
+                                    <th scope="col">WhatsApp</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
